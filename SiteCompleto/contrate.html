@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hire Us</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./home.html">
+          <img src="../SiteCompleto/imagens/logo.png" alt="Logo SpaceX"
+        /></a>
+        .| <a href="./naves.html">The Spaceships</a> |
+        <a href="./contrate.html">Hire Us</a>
+      </nav>
+    </header>
+    <hr />
+    <section>
+      <div>
+        <h3>Hire Us Now</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <form action="">
+          <div>
+            <!-- <label for="name">Name:</label> -->
+
+            <input type="text" id="name" name="name" />
+            <label for="email">-Email:</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <br />
+          <div>
+            <label for="spaceship">Spaceship:</label>
+            <select name="spaceship" id="spaceship">
+              <option value="falcon9">Falcon 9</option>
+              <option value="falconheavy">Falcon Heavy</option>
+            </select>
+
+            <label for="service">-Type of Service:</label>
+            <input type="search" id="service" name="service" list="services" />
+            <datalist id="services">
+              <option value="1 Type of Service 1"></option>
+              <option value="2 Type of Service 2"></option>
+              <option value="3 Type of Service 3"></option>
+              <option value="4 Type of Service 4"></option>
+            </datalist>
+          </div>
+          <br />
+          <input type="submit" value="Send Message" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
